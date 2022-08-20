@@ -1,7 +1,8 @@
-var name = "Linda";
+var name = " Linda ";
 var nameLength = name.length;
 var nameLowerCase = name.toLowerCase();
-var phrase = "HI, my name is " + nameLowerCase + " and my name is " + nameLength + " characters long."
-var phraseTrim = phrase.trim();
+var nameTrim = name.trim();
+var phrase = "HI, my name is " + nameTrim + " and my name is " + nameTrim.length + " characters long."
 
-console.log(phraseTrim);
+
+console.log(phrase);
