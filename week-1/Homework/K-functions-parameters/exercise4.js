@@ -1,5 +1,9 @@
-// Declare your function first
-
-// Call the function and assign to a variable `sum`
+function sumandos(num1, num2) {
+    return num1 + num2;
+  }
+  
+  
+  var sum = sumandos(13, 124);
 
 console.log(sum);
+
