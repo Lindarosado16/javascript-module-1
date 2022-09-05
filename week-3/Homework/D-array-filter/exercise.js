@@ -4,11 +4,15 @@
   It is decided that array items which are not pairs should be filtered out
   - Finish the statement on line 11 to produce an array with valid content
   - Do not edit any of the existing code
-*/
+
+  Filtrar si es un array para que asi me devuelva los array con dos digitos.
+  */
 
 var pairsByIndexRaw = [[0, 3], [1, 2], [2, 1], null, [1], false, "whoops"];
 
-var pairsByIndex; // Complete this statement
+let pairsByIndex = pairsByIndexRaw.filter(el => {
+  return Array.isArray(el) && el.length === 2;
+}); // Complete this statement
 
 var students = ["Islam", "Lesley", "Harun", "Rukmini"];
 var mentors = ["Daniel", "Irina", "Mozafar", "Luke"];
