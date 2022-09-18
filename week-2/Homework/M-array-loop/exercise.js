@@ -10,7 +10,7 @@ function getDaysStartingWithT (array){
   for(let i = 0; i< array.length ; i++){
 
     const day = array[i];
-    if(day.startswith('T')){
+    if(day.startsWith('T')){
       console.log(day);
     }
   }
