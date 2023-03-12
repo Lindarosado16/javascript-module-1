@@ -25,10 +25,9 @@ function createCreeting(name, age) {
 
 ## Expected result
 
-```
 HELLO DANIEL
 HELLO IRINA
 HELLO MIMI
 HELLO ROB
 HELLO YOHANNES
-```
+

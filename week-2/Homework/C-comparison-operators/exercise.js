@@ -5,16 +5,17 @@
   The variables should have values that match the expected results.
 */
 
-var studentCount = 16;
-var mentorCount = 9;
-var moreStudentsThanMentors = studentCount > mentorCount; // finish this statement
+let studentCount = 16;
+let mentorCount = 9;
+let moreStudentsThanMentors = studentCount !== mentorCount; // finish this statement
 
-var roomMaxCapacity = 25;
-var enoughSpaceInRoom = roomMaxCapacity >= (studentCount + mentorCount); // finish this statement
+let roomMaxCapacity = 25;
+let sumcount = studentCount+mentorCount;
+let enoughSpaceInRoom = roomMaxCapacity == sumcount; // finish this statement
 
-var personA = "Daniel";
-var personB = "Irina";
-var sameName = personA === personB; // finish this statement
+let personA = "Daniel";
+let personB = "Irina";
+let sameName = personA === personB; // finish this statement
 
 /* 
   DO NOT EDIT BELOW THIS LINE
@@ -33,4 +34,3 @@ console.log("Do person A and person B have the the same name?", sameName);
   Is there enough space in the room for all students and mentors? true
   Do person A and person B have the the same name? false
 */
-
